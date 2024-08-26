@@ -4,15 +4,15 @@ const app = express();
 const port = 4000;
 const cors = require('cors');
 
-app.use(cors());
+const countryRoutes = require("./routes/Countries")
 
-app.get('/api/*', (req, res) => {
-  res.json({ message: 'Hello from the backend!' });
-});
+app.use(cors());
 
 app.get('/api/hello', (req, res) => {
   res.json({ message: 'Hello from the backend!' });
 });
+
+app.use('/api', countryRoutes);
 
 app.listen(port, () => {
   console.log(`Backend server running on http://localhost:${port}`);
