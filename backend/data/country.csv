@@ -1,0 +1,170 @@
+name,capital,currency
+Afghanistan,Kabul,AFN
+Albania,Tirana,ALL
+Algeria,Algiers,DZD
+Andorra,Andorra la Vella,EUR
+Angola,Luanda,AOA
+Antigua and Barbuda,"St. John's, Saint John",XCD
+Argentina,Buenos Aires,ARS
+Armenia,Yerevan,AMD
+Australia,Canberra,AUD
+Austria,Vienna,EUR
+Azerbaijan,Baku,AZN
+Bahrain,Manama,BHD
+Bangladesh,Dhaka,BDT
+Barbados,Bridgetown,BBD
+Belarus,Minsk,BYN
+Belgium,City of Brussels,EUR
+Belize,Belmopan,BZD
+Benin,Porto-Novo,XOF
+Bolivia,Sucre,BOB
+Bosnia and Herzegovina,Sarajevo,BAM
+Botswana,Gaborone,BWP
+Brunei,Bandar Seri Begawan,BND
+Bulgaria,Sofia,BGN
+Burkina Faso,Ouagadougou,XOF
+Burundi,Bujumbura,BIF
+Ivory Coast,Yamoussoukro,XOF
+Cape Verde,Praia,CVE
+Canada,Ottawa,CAD
+Chad,N'Djamena,XAF
+Chile,Santiago,CLP
+China,Beijing,CNY
+Comoros,"Moroni, Comoros",KMF
+Republic of the Congo,Brazzaville,XAF
+Croatia,Zagreb,HRK
+Cuba,Havana,CUP
+Cyprus,Nicosia,EUR
+Czech Republic,Prague,CZK
+Democratic Republic of the Congo,Kinshasa,CDF
+Denmark,Copenhagen,DKK
+Djibouti,Djibouti City,DJF
+Dominica,Roseau,XCD
+Dominican Republic,Santo Domingo,DOP
+Ecuador,Quito,USD
+Egypt,Cairo,EGP
+Equatorial Guinea,Malabo,XAF
+Eritrea,Asmara,ERN
+Estonia,Tallinn,EUR
+Ethiopia,Addis Ababa,ETB
+Fiji,Suva,FJD
+Finland,Helsinki,EUR
+France,Paris,EUR
+Gabon,Libreville,XAF
+The Gambia,Banjul,GMD
+Georgia,Tbilisi,GEL
+Germany,Berlin,EUR
+Ghana,Accra,GHS
+Greece,Athens,EUR
+Grenada,"St. George's, Grenada",XCD
+Guatemala,Guatemala City,GTQ
+Guinea,Conakry,GNF
+Guinea-Bissau,Bissau,XOF
+Guyana,"Georgetown, Guyana",GYD
+Haiti,Port-au-Prince,HTG
+Vatican City,Vatican City,EUR
+Honduras,Tegucigalpa,HNL
+Hungary,Budapest,HUF
+India,New Delhi,INR
+Indonesia,Jakarta,IDR
+Iran,Tehran,IRR
+Iraq,Baghdad,IQD
+Republic of Ireland,Dublin,EUR
+Israel,Jerusalem,ILS
+Italy,Rome,EUR
+Jamaica,"Kingston, Jamaica",JMD
+Jordan,Amman,JOD
+Kazakhstan,Astana,KZT
+Kenya,Nairobi,KES
+Kiribati,South Tarawa,AUD
+Kuwait,Kuwait City,KWD
+Kyrgyzstan,Bishkek,KGS
+Laos,Vientiane,LAK
+Latvia,Riga,EUR
+Lebanon,Beirut,LBP
+Liechtenstein,Vaduz,CHF
+Lithuania,Vilnius,EUR
+Luxembourg,Luxembourg City,EUR
+Madagascar,Antananarivo,MGA
+Malawi,Lilongwe,MWK
+Malaysia,Kuala Lumpur,MYR
+Mali,Bamako,XOF
+Malta,Valletta,EUR
+Marshall Islands,Majuro,USD
+Mauritania,Nouakchott,MRU
+Mauritius,Port Louis,MUR
+Mexico,Mexico City,MXN
+Federated States of Micronesia,Palikir,USD
+Monaco,Monaco City,EUR
+Mongolia,Ulaanbaatar,MNT
+Montenegro,Podgorica,EUR
+Morocco,Rabat,MAD
+Mozambique,Maputo,MZN
+Myanmar,Naypyidaw,MMK
+Nauru,Yaren District,AUD
+Nepal,Kathmandu,NPR
+New Zealand,Wellington,NZD
+Nicaragua,Managua,NIO
+Niger,Niamey,XOF
+Nigeria,Abuja,NGN
+North Korea,Pyongyang,KPW
+North Macedonia,Skopje,MKD
+Norway,Oslo,NOK
+Oman,Muscat,OMR
+Pakistan,Islamabad,PKR
+Palau,Ngerulmud,USD
+Papua New Guinea,Port Moresby,PGK
+Peru,Lima,PEN
+Philippines,Manila,PHP
+Poland,Warsaw,PLN
+Portugal,Lisbon,EUR
+Qatar,Doha,QAR
+Romania,Bucharest,RON
+Russia,Moscow,RUB
+Rwanda,Kigali,RWF
+Saint Kitts and Nevis,Basseterre,XCD
+Saint Lucia,Castries,XCD
+Saint Vincent and the Grenadines,Kingstown,XCD
+Samoa,Apia,WST
+San Marino,City of San Marino,EUR
+Saudi Arabia,Riyadh,SAR
+Senegal,Dakar,XOF
+Serbia,Belgrade,RSD
+Seychelles,"Victoria, Seychelles",SCR
+Sierra Leone,Freetown,SLL
+Singapore,Singapore,SGD
+Slovakia,Bratislava,EUR
+Slovenia,Ljubljana,EUR
+Solomon Islands,Honiara,SBD
+Somalia,Mogadishu,SOS
+South Africa,Pretoria,ZAR
+South Korea,Seoul,KRW
+South Sudan,Juba,SSP
+Spain,Madrid,EUR
+Sri Lanka,Colombo,LKR
+Sudan,Khartoum,SDG
+Suriname,Paramaribo,SRD
+Sweden,Stockholm,SEK
+Switzerland,Bern,CHF
+Syria,Damascus,SYP
+Tajikistan,Dushanbe,TJS
+Tanzania,Dodoma,TZS
+Thailand,Bangkok,THB
+East Timor,Dili,USD
+Trinidad and Tobago,Port of Spain,TTD
+Tunisia,Tunis,TND
+Turkey,Ankara,TRY
+Turkmenistan,Ashgabat,TMT
+Tuvalu,Funafuti,AUD
+Uganda,Kampala,UGX
+Ukraine,Kyiv,UAH
+United Arab Emirates,Abu Dhabi,AED
+United Kingdom,London,GBP
+United States,"Washington, D.C.",USD
+Uruguay,Montevideo,UYU
+Uzbekistan,Tashkent,UZS
+Vanuatu,Port Vila,VUV
+Venezuela,Caracas,VED
+Vietnam,Hanoi,VND
+Yemen,Sanaa,YER
+Zambia,Lusaka,ZMW
