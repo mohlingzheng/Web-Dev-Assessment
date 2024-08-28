@@ -18,6 +18,7 @@ module.exports = {
             name: row.name,
             capital: row.capital,
             currency: row.currency,
+            country_code: row.country_code,
             createdAt: new Date(),
             updatedAt: new Date(),
           });

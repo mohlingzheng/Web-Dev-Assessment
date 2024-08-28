@@ -44,6 +44,16 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    country_code: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        notNull: {
+          args: true,
+          msg: "country code is required"
+        }
+      }
+    },
   }, {
     sequelize,
     modelName: 'country',

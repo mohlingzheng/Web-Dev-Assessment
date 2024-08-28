@@ -1,170 +1,153 @@
-name,capital,currency
-Afghanistan,Kabul,AFN
-Albania,Tirana,ALL
-Algeria,Algiers,DZD
-Andorra,Andorra la Vella,EUR
-Angola,Luanda,AOA
-Antigua and Barbuda,"St. John's, Saint John",XCD
-Argentina,Buenos Aires,ARS
-Armenia,Yerevan,AMD
-Australia,Canberra,AUD
-Austria,Vienna,EUR
-Azerbaijan,Baku,AZN
-Bahrain,Manama,BHD
-Bangladesh,Dhaka,BDT
-Barbados,Bridgetown,BBD
-Belarus,Minsk,BYN
-Belgium,City of Brussels,EUR
-Belize,Belmopan,BZD
-Benin,Porto-Novo,XOF
-Bolivia,Sucre,BOB
-Bosnia and Herzegovina,Sarajevo,BAM
-Botswana,Gaborone,BWP
-Brunei,Bandar Seri Begawan,BND
-Bulgaria,Sofia,BGN
-Burkina Faso,Ouagadougou,XOF
-Burundi,Bujumbura,BIF
-Ivory Coast,Yamoussoukro,XOF
-Cape Verde,Praia,CVE
-Canada,Ottawa,CAD
-Chad,N'Djamena,XAF
-Chile,Santiago,CLP
-China,Beijing,CNY
-Comoros,"Moroni, Comoros",KMF
-Republic of the Congo,Brazzaville,XAF
-Croatia,Zagreb,HRK
-Cuba,Havana,CUP
-Cyprus,Nicosia,EUR
-Czech Republic,Prague,CZK
-Democratic Republic of the Congo,Kinshasa,CDF
-Denmark,Copenhagen,DKK
-Djibouti,Djibouti City,DJF
-Dominica,Roseau,XCD
-Dominican Republic,Santo Domingo,DOP
-Ecuador,Quito,USD
-Egypt,Cairo,EGP
-Equatorial Guinea,Malabo,XAF
-Eritrea,Asmara,ERN
-Estonia,Tallinn,EUR
-Ethiopia,Addis Ababa,ETB
-Fiji,Suva,FJD
-Finland,Helsinki,EUR
-France,Paris,EUR
-Gabon,Libreville,XAF
-The Gambia,Banjul,GMD
-Georgia,Tbilisi,GEL
-Germany,Berlin,EUR
-Ghana,Accra,GHS
-Greece,Athens,EUR
-Grenada,"St. George's, Grenada",XCD
-Guatemala,Guatemala City,GTQ
-Guinea,Conakry,GNF
-Guinea-Bissau,Bissau,XOF
-Guyana,"Georgetown, Guyana",GYD
-Haiti,Port-au-Prince,HTG
-Vatican City,Vatican City,EUR
-Honduras,Tegucigalpa,HNL
-Hungary,Budapest,HUF
-India,New Delhi,INR
-Indonesia,Jakarta,IDR
-Iran,Tehran,IRR
-Iraq,Baghdad,IQD
-Republic of Ireland,Dublin,EUR
-Israel,Jerusalem,ILS
-Italy,Rome,EUR
-Jamaica,"Kingston, Jamaica",JMD
-Jordan,Amman,JOD
-Kazakhstan,Astana,KZT
-Kenya,Nairobi,KES
-Kiribati,South Tarawa,AUD
-Kuwait,Kuwait City,KWD
-Kyrgyzstan,Bishkek,KGS
-Laos,Vientiane,LAK
-Latvia,Riga,EUR
-Lebanon,Beirut,LBP
-Liechtenstein,Vaduz,CHF
-Lithuania,Vilnius,EUR
-Luxembourg,Luxembourg City,EUR
-Madagascar,Antananarivo,MGA
-Malawi,Lilongwe,MWK
-Malaysia,Kuala Lumpur,MYR
-Mali,Bamako,XOF
-Malta,Valletta,EUR
-Marshall Islands,Majuro,USD
-Mauritania,Nouakchott,MRU
-Mauritius,Port Louis,MUR
-Mexico,Mexico City,MXN
-Federated States of Micronesia,Palikir,USD
-Monaco,Monaco City,EUR
-Mongolia,Ulaanbaatar,MNT
-Montenegro,Podgorica,EUR
-Morocco,Rabat,MAD
-Mozambique,Maputo,MZN
-Myanmar,Naypyidaw,MMK
-Nauru,Yaren District,AUD
-Nepal,Kathmandu,NPR
-New Zealand,Wellington,NZD
-Nicaragua,Managua,NIO
-Niger,Niamey,XOF
-Nigeria,Abuja,NGN
-North Korea,Pyongyang,KPW
-North Macedonia,Skopje,MKD
-Norway,Oslo,NOK
-Oman,Muscat,OMR
-Pakistan,Islamabad,PKR
-Palau,Ngerulmud,USD
-Papua New Guinea,Port Moresby,PGK
-Peru,Lima,PEN
-Philippines,Manila,PHP
-Poland,Warsaw,PLN
-Portugal,Lisbon,EUR
-Qatar,Doha,QAR
-Romania,Bucharest,RON
-Russia,Moscow,RUB
-Rwanda,Kigali,RWF
-Saint Kitts and Nevis,Basseterre,XCD
-Saint Lucia,Castries,XCD
-Saint Vincent and the Grenadines,Kingstown,XCD
-Samoa,Apia,WST
-San Marino,City of San Marino,EUR
-Saudi Arabia,Riyadh,SAR
-Senegal,Dakar,XOF
-Serbia,Belgrade,RSD
-Seychelles,"Victoria, Seychelles",SCR
-Sierra Leone,Freetown,SLL
-Singapore,Singapore,SGD
-Slovakia,Bratislava,EUR
-Slovenia,Ljubljana,EUR
-Solomon Islands,Honiara,SBD
-Somalia,Mogadishu,SOS
-South Africa,Pretoria,ZAR
-South Korea,Seoul,KRW
-South Sudan,Juba,SSP
-Spain,Madrid,EUR
-Sri Lanka,Colombo,LKR
-Sudan,Khartoum,SDG
-Suriname,Paramaribo,SRD
-Sweden,Stockholm,SEK
-Switzerland,Bern,CHF
-Syria,Damascus,SYP
-Tajikistan,Dushanbe,TJS
-Tanzania,Dodoma,TZS
-Thailand,Bangkok,THB
-East Timor,Dili,USD
-Trinidad and Tobago,Port of Spain,TTD
-Tunisia,Tunis,TND
-Turkey,Ankara,TRY
-Turkmenistan,Ashgabat,TMT
-Tuvalu,Funafuti,AUD
-Uganda,Kampala,UGX
-Ukraine,Kyiv,UAH
-United Arab Emirates,Abu Dhabi,AED
-United Kingdom,London,GBP
-United States,"Washington, D.C.",USD
-Uruguay,Montevideo,UYU
-Uzbekistan,Tashkent,UZS
-Vanuatu,Port Vila,VUV
-Venezuela,Caracas,VED
-Vietnam,Hanoi,VND
-Yemen,Sanaa,YER
-Zambia,Lusaka,ZMW
+name,capital,currency,country_code
+Afghanistan,Kabul,AFN,AF
+Albania,Tirana,ALL,AL
+Algeria,Algiers,DZD,DZ
+Andorra,Andorra la Vella,EUR,AD
+Angola,Luanda,AOA,AO
+Argentina,Buenos Aires,ARS,AR
+Armenia,Yerevan,AMD,AM
+Australia,Canberra,AUD,AU
+Austria,Vienna,EUR,AT
+Azerbaijan,Baku,AZN,AZ
+Bahrain,Manama,BHD,BH
+Bangladesh,Dhaka,BDT,BD
+Barbados,Bridgetown,BBD,BB
+Belarus,Minsk,BYN,BY
+Belgium,City of Brussels,EUR,BE
+Belize,Belmopan,BZD,BZ
+Benin,Porto-Novo,XOF,BJ
+Bolivia,Sucre,BOB,BO
+Botswana,Gaborone,BWP,BW
+Brunei,Bandar Seri Begawan,BND,BN
+Bulgaria,Sofia,BGN,BG
+Burkina Faso,Ouagadougou,XOF,BF
+Burundi,Bujumbura,BIF,BI
+Ivory Coast,Yamoussoukro,XOF,CI
+Cape Verde,Praia,CVE,CV
+Canada,Ottawa,CAD,CA
+Chad,N'Djamena,XAF,TD
+Chile,Santiago,CLP,CL
+China,Beijing,CNY,CN
+Comoros,"Moroni, Comoros",KMF,KM
+Croatia,Zagreb,HRK,HR
+Cuba,Havana,CUP,CU
+Cyprus,Nicosia,EUR,CY
+Czech Republic,Prague,CZK,CZ
+Denmark,Copenhagen,DKK,DK
+Djibouti,Djibouti City,DJF,DJ
+Dominica,Roseau,XCD,DM
+Dominican Republic,Santo Domingo,DOP,DO
+Ecuador,Quito,USD,EC
+Egypt,Cairo,EGP,EG
+Equatorial Guinea,Malabo,XAF,GQ
+Eritrea,Asmara,ERN,ER
+Estonia,Tallinn,EUR,EE
+Ethiopia,Addis Ababa,ETB,ET
+Fiji,Suva,FJD,FJ
+Finland,Helsinki,EUR,FI
+France,Paris,EUR,FR
+Gabon,Libreville,XAF,GA
+Georgia,Tbilisi,GEL,GE
+Germany,Berlin,EUR,DE
+Ghana,Accra,GHS,GH
+Greece,Athens,EUR,GR
+Grenada,"St. George's, Grenada",XCD,GD
+Guatemala,Guatemala City,GTQ,GT
+Guinea,Conakry,GNF,GN
+Guinea-Bissau,Bissau,XOF,GW
+Guyana,"Georgetown, Guyana",GYD,GY
+Haiti,Port-au-Prince,HTG,HT
+Honduras,Tegucigalpa,HNL,HN
+Hungary,Budapest,HUF,HU
+India,New Delhi,INR,IN
+Indonesia,Jakarta,IDR,ID
+Iraq,Baghdad,IQD,IQ
+Israel,Jerusalem,ILS,IL
+Italy,Rome,EUR,IT
+Jamaica,"Kingston, Jamaica",JMD,JM
+Jordan,Amman,JOD,JO
+Kazakhstan,Astana,KZT,KZ
+Kenya,Nairobi,KES,KE
+Kiribati,South Tarawa,AUD,KI
+Kuwait,Kuwait City,KWD,KW
+Kyrgyzstan,Bishkek,KGS,KG
+Latvia,Riga,EUR,LV
+Lebanon,Beirut,LBP,LB
+Liechtenstein,Vaduz,CHF,LI
+Lithuania,Vilnius,EUR,LT
+Luxembourg,Luxembourg City,EUR,LU
+Madagascar,Antananarivo,MGA,MG
+Malawi,Lilongwe,MWK,MW
+Malaysia,Kuala Lumpur,MYR,MY
+Mali,Bamako,XOF,ML
+Malta,Valletta,EUR,MT
+Marshall Islands,Majuro,USD,MH
+Mauritania,Nouakchott,MRU,MR
+Mauritius,Port Louis,MUR,MU
+Mexico,Mexico City,MXN,MX
+Monaco,Monaco City,EUR,MC
+Mongolia,Ulaanbaatar,MNT,MN
+Montenegro,Podgorica,EUR,ME
+Morocco,Rabat,MAD,MA
+Mozambique,Maputo,MZN,MZ
+Myanmar,Naypyidaw,MMK,MM
+Nauru,Yaren District,AUD,NR
+Nepal,Kathmandu,NPR,NP
+New Zealand,Wellington,NZD,NZ
+Nicaragua,Managua,NIO,NI
+Niger,Niamey,XOF,NE
+Nigeria,Abuja,NGN,NG
+Norway,Oslo,NOK,NO
+Oman,Muscat,OMR,OM
+Pakistan,Islamabad,PKR,PK
+Palau,Ngerulmud,USD,PW
+Papua New Guinea,Port Moresby,PGK,PG
+Peru,Lima,PEN,PE
+Philippines,Manila,PHP,PH
+Poland,Warsaw,PLN,PL
+Portugal,Lisbon,EUR,PT
+Qatar,Doha,QAR,QA
+Romania,Bucharest,RON,RO
+Russia,Moscow,RUB,RU
+Rwanda,Kigali,RWF,RW
+Saint Lucia,Castries,XCD,LC
+Samoa,Apia,WST,WS
+San Marino,City of San Marino,EUR,SM
+Saudi Arabia,Riyadh,SAR,SA
+Senegal,Dakar,XOF,SN
+Serbia,Belgrade,RSD,RS
+Seychelles,"Victoria, Seychelles",SCR,SC
+Sierra Leone,Freetown,SLL,SL
+Singapore,Singapore,SGD,SG
+Slovakia,Bratislava,EUR,SK
+Slovenia,Ljubljana,EUR,SI
+Solomon Islands,Honiara,SBD,SB
+Somalia,Mogadishu,SOS,SO
+South Africa,Pretoria,ZAR,ZA
+South Korea,Seoul,KRW,KR
+South Sudan,Juba,SSP,SS
+Spain,Madrid,EUR,ES
+Sri Lanka,Colombo,LKR,LK
+Sudan,Khartoum,SDG,SD
+Suriname,Paramaribo,SRD,SR
+Sweden,Stockholm,SEK,SE
+Switzerland,Bern,CHF,CH
+Tajikistan,Dushanbe,TJS,TJ
+Thailand,Bangkok,THB,TH
+Trinidad and Tobago,Port of Spain,TTD,TT
+Tunisia,Tunis,TND,TN
+Turkey,Ankara,TRY,TR
+Turkmenistan,Ashgabat,TMT,TM
+Tuvalu,Funafuti,AUD,TV
+Uganda,Kampala,UGX,UG
+Ukraine,Kyiv,UAH,UA
+United Arab Emirates,Abu Dhabi,AED,AE
+United Kingdom,London,GBP,GB
+United States,"Washington, D.C.",USD,US
+Uruguay,Montevideo,UYU,UY
+Uzbekistan,Tashkent,UZS,UZ
+Vanuatu,Port Vila,VUV,VU
+Venezuela,Caracas,VED,VE
+Vietnam,Hanoi,VND,VN
+Yemen,Sanaa,YER,YE
+Zambia,Lusaka,ZMW,ZM
