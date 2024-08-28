@@ -11,16 +11,16 @@ export default function Home() {
     currency: "MYR",
     country_code: "MY"
   });
-  const [mapLink, setMapLink] = useState("https://www.google.com/maps/place/KualaLumpur");
+  // const [mapLink, setMapLink] = useState("https://www.google.com/maps/place/KualaLumpur");
   const [flagLink, setFlagLink] = useState(`https://flagcdn.com/192x144/my.png`);
-  const [googleLink, setGoogleLink] = useState("");
+  const [googleLink, setGoogleLink] = useState(`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}=Malaysia}`);
   const { filteredCountries, loading, error } = useCountries(query);
 
   const handleSelectCountry = (country) => {
     setSelectedCountry(country);
-    setMapLink("https://www.google.com/maps/place/"+country.capital);
+    // setMapLink("https://www.google.com/maps/place/"+country.capital);
     setFlagLink(`https://flagcdn.com/192x144/${country.country_code.toLowerCase()}.png`)
-    setGoogleLink(`https://www.google.com/maps/embed/v1/search?q=${encodeURIComponent(country.name)}&zoom=5`);
+    setGoogleLink(`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}=${country.name}`)
   }
 
   return (
@@ -31,7 +31,7 @@ export default function Home() {
             {selectedCountry.name}
           </div>
 
-          <div className='flex flex-row'>
+          <div className='flex flex-row font-semibold'>
             <div className='basis-2/5'>
               Capital:
             </div>
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='flex flex-row'>
+          <div className='flex flex-row font-semibold'>
             <div className='basis-2/5'>
               Currency:
             </div>
@@ -49,16 +49,21 @@ export default function Home() {
             </div>
           </div>
 
-          <div className='flex justify-center m-6'>
+          <div className='flex justify-center m-4'>
             <img src={flagLink} className='w-32 h-auto'></img>
           </div>
 
           <div className='flex justify-center'>
-             <a href={mapLink} target="_blank" rel="noopener noreferrer">
+             {/* <a href={mapLink} target="_blank" rel="noopener noreferrer">
                <button className="bg-transparent hover:bg-zinc-500 text-zinc-700 font-semibold hover:text-white py-2 px-4 border-2 border-zinc-500 hover:border-transparent rounded text-sm">
                  Click To Preview In Google Maps
                </button>
-             </a>
+             </a> */}
+             <iframe
+              width="600"
+              height="250"
+              src={googleLink}>
+            </iframe>
           </div>
         </div>
 
@@ -66,11 +71,10 @@ export default function Home() {
           <div className='mt-4'>
             <div className="relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg bg-white overflow-hidden p-3 border">
                 <input
-                className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+                className="h-full w-full outline-none text-sm text-gray-700 pr-2"
                 type="text"
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                id="search"
                 placeholder="Search a country..." /> 
             </div>
           </div>
@@ -79,7 +83,7 @@ export default function Home() {
             {loading && <p></p>}
             {error && <p className="text-red-500">{error}</p>}
 
-            <div className='h-60 overflow-y-auto mt-4'>
+            <div className='h-96 overflow-y-auto mt-4 border'>
               <ul className="mb-2">
 
                 {filteredCountries.map((country) => (
