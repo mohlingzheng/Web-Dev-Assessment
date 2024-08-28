@@ -20,7 +20,7 @@ exports.show = async (req, res) => {
     }
 
     country.dataValues.flagLink = `https://flagcdn.com/192x144/${country.dataValues.country_code.toLowerCase()}.png`;
-    country.dataValues.googleLink = `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}=${country.dataValues.name}`
+    country.dataValues.googleLink = `https://www.google.com/maps/embed/v1/place?key=${process.env.GOOGLE_MAPS_API_KEY}=${country.dataValues.name}`
 
     res.status(200).json(country);
   } catch (error) {
