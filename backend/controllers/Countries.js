@@ -19,6 +19,9 @@ exports.show = async (req, res) => {
       return res.status(404).json({ error: 'Country not found' + "with id " + id });
     }
 
+    country.dataValues.flagLink = `https://flagcdn.com/192x144/${country.dataValues.country_code.toLowerCase()}.png`;
+    country.dataValues.googleLink = `https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}=${country.dataValues.name}`
+
     res.status(200).json(country);
   } catch (error) {
     res.status(500).json({ error: 'Internal Server Error: ' + error });

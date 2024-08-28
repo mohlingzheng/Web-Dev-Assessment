@@ -5,23 +5,13 @@ import useCountries from './hook'
 
 export default function Home() {
   const [query, setQuery] = useState('');
-  const [selectedCountry, setSelectedCountry] = useState({
-    name: "Malaysia",
-    capital: "Kuala Lumpur",
-    currency: "MYR",
-    country_code: "MY"
-  });
-  // const [mapLink, setMapLink] = useState("https://www.google.com/maps/place/KualaLumpur");
-  const [flagLink, setFlagLink] = useState(`https://flagcdn.com/192x144/my.png`);
-  const [googleLink, setGoogleLink] = useState(`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}=Malaysia}`);
-  const { filteredCountries, loading, error } = useCountries(query);
-
-  const handleSelectCountry = (country) => {
-    setSelectedCountry(country);
-    // setMapLink("https://www.google.com/maps/place/"+country.capital);
-    setFlagLink(`https://flagcdn.com/192x144/${country.country_code.toLowerCase()}.png`)
-    setGoogleLink(`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}=${country.name}`)
-  }
+  const { 
+    selectedCountry, 
+    filteredCountries, 
+    loading, 
+    error, 
+    handleSelectCountry 
+  } = useCountries(query);
 
   return (
     <div className='flex justify-center items-center min-h-screen'>
@@ -50,19 +40,14 @@ export default function Home() {
           </div>
 
           <div className='flex justify-center m-4'>
-            <img src={flagLink} className='w-32 h-auto'></img>
+            <img src={selectedCountry.flagLink} className='w-32 h-auto'></img>
           </div>
 
           <div className='flex justify-center'>
-             {/* <a href={mapLink} target="_blank" rel="noopener noreferrer">
-               <button className="bg-transparent hover:bg-zinc-500 text-zinc-700 font-semibold hover:text-white py-2 px-4 border-2 border-zinc-500 hover:border-transparent rounded text-sm">
-                 Click To Preview In Google Maps
-               </button>
-             </a> */}
              <iframe
               width="600"
               height="250"
-              src={googleLink}>
+              src={selectedCountry.googleLink}>
             </iframe>
           </div>
         </div>
@@ -87,7 +72,10 @@ export default function Home() {
               <ul className="mb-2">
 
                 {filteredCountries.map((country) => (
-                <li key={country?.id} className="text-xs font-semibold border-b p-2 cursor-pointer bg-zinc-300 hover:bg-zinc-500 hover:text-white" onClick={() => handleSelectCountry(country)}>
+                <li 
+                  key={country?.id} 
+                  className="text-xs font-semibold border-b p-2 cursor-pointer bg-zinc-300 hover:bg-zinc-500 hover:text-white" 
+                  onClick={() => handleSelectCountry(country.id)}>
                   {country?.name}
                 </li>
                 ))}
